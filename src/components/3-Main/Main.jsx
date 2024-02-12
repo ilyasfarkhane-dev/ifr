@@ -80,23 +80,35 @@ export default function Main() {
                 key={item.imagePath}
                 className=" card "
               >
-                <img src={item.imagePath} width={260} alt="" />
+                <img src={item.imagePath} width={260} height={149} alt="" />
                 <div style={{ width: "260px" }} className=" box">
                   <div className="title">
                     <h1>{item.projectTitle}</h1>
                     <p className="sub-title">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Nihil delectus reiciendis inventore.
+                    {item.desc}
+                  
                     </p>
                     <div className="flex icons">
                       <div style={{ gap: "11px" }} className="flex">
-                        <div className="icon-link"></div>
-                        <div className="icon-github"></div>
+                        <a
+                          className="icon-link"
+                          href={item.link}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          
+                        </a>
+                        <a
+                          className="icon-github"
+                          href={item.githubLink}
+                          target="_blank"
+                          rel="noreferrer"
+                        ></a>
                       </div>
-                      <a className="link flex" href="">
+                      {/* <a className="link flex" href="">
                         more
                         <span className="icon-arrow-right"></span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

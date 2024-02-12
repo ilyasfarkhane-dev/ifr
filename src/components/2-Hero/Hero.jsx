@@ -13,12 +13,13 @@ export default function Hero() {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 7, type: "spring", stiffness: 100 }}
-            src="./aa.jpg"
+            src="./prof.jpg"
             className="avatar"
             alt=""
           />
           <div className="icon-verified"></div>
         </div>
+
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
