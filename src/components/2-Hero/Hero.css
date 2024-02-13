@@ -25,7 +25,7 @@ section.hero .parent-avatar.flex {
 }
 
 section.hero .left-section .avatar {
-  width: 97px;
+  width: 105px;
   height: 100px;
   border-radius: 50%;
   border: 1px solid var(--blue);
