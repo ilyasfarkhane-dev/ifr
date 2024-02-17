@@ -20,7 +20,7 @@ export const myProjects = [
     categorie: "css",
     imagePath: "./images/fac.jpg",
     githubLink: "https://github.com/ilyasfarkhane-dev/devis",
-    link: "https://ilyasfarkhane-1500.github.io/devis/",
+    link: "https://ilyasfarkhane-dev.github.io/devis/",
     desc: "Streamlining invoicing processes with an intuitive web platform.",
   },
 
