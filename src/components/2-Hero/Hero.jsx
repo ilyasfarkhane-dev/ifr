@@ -44,7 +44,7 @@ export default function Hero() {
           />
           <a
             className="icon icon-github"
-            href="https://github.com/ilyasfarkhane-1500"
+            href="https://github.com/ilyasfarkhane-dev"
           />
         </div>
       </div>
