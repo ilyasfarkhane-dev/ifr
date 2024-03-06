@@ -61,7 +61,23 @@ section.hero .all-icons .icon:hover {
   cursor: pointer;
   color: var(--icon-hover);
 }
-
+.cv button {
+  background-color: rgb(45, 46, 56);
+  width: 11rem;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  opacity: 1;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.cv button:hover {
+  /* background-color: rgb(108, 109, 119); */
+  background-color: var(--blue);
+  opacity: 1;
+  color: white !important;
+}
 /* ---------------------------------------
        2. Right Section ===>Animation
 -----------------------------------------*/

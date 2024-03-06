@@ -46,7 +46,9 @@ export default function Hero() {
             className="icon icon-github"
             href="https://github.com/ilyasfarkhane-dev"
           />
+          <div className="cv"><button>Download My CV</button></div>
         </div>
+        
       </div>
 
       <div className="right-section animation ">
