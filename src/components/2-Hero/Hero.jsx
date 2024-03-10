@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 3 }}
           className="title"
         >
-          {"< Ilyas Farkhane />"}
+          {"< Ilyasiii Farkhane />"}
         </motion.h1>
 
         <p className="sub-title">
