@@ -70,7 +70,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href=""
+                href="#about"
                 onClick={() => {
                   setShowMosdal(false);
                 }}
