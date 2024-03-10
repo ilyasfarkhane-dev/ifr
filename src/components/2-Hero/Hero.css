@@ -68,6 +68,7 @@ section.hero .all-icons .icon:hover {
 .cv a {
   border: solid var(--blue) 0.5px;
   padding: 0.75rem 0.75rem;
+  color: var(--subtitle);
   text-align: center;
   font-size: 16px;
   font-family: "Source Code Pro", monospace;
@@ -101,9 +102,9 @@ section.hero .animation {
     display: none;
   }
   .stack-icons {
-    padding-top: 1rem;
-    padding-bottom: 4rem;
-    padding-right: 1rem;
+    /* padding-top: 1rem; */
+    padding-bottom: 1.5rem;
+    /* padding-right: 1rem; */
 
     justify-content: space-between;
   }
@@ -122,7 +123,7 @@ section.hero .animation {
   section.hero h1.title {
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 18px;
+    margin: 1rem 0 0.2rem 0;
   }
   .left-section {
     justify-content: center;
@@ -134,7 +135,8 @@ section.hero .animation {
   }
   section.hero p.sub-title {
     text-align: center;
-    margin-top: -18px;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
   }
   section.hero .all-icons {
     /* border: 1px solid red; */
