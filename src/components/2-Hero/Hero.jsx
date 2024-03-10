@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 3 }}
           className="title"
         >
-          {"< Ilyasiii Farkhane />"}
+          {"< Ilyas Farkhane />"}
         </motion.h1>
 
         <p className="sub-title">
@@ -50,11 +50,11 @@ export default function Hero() {
           />
         </p>
         <div className="stack-icons flex">
-          <img src="public\images\mongo.png" alt="" />
-          <img src="public\images\ex.png" alt="" />
-          <img src="public\images\react.png" alt="" />
-          <img src="public\images\node.png" alt="" />
-          <img src="public\images\figma.png" alt="" />
+          <img src="./mongo.png" alt="" />
+          <img src="./ex.png" alt="" />
+          <img src="./react.png" alt="" />
+          <img src="./node.png" alt="" />
+          <img src="./figma.png" alt="" />
         </div>
 
         <div className="all-icons flex">
