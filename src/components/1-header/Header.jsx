@@ -27,7 +27,7 @@ export default function Header() {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
 
           <li>

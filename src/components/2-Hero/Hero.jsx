@@ -3,6 +3,11 @@ import { motion } from "framer-motion";
 import "./Hero.css";
 import devAnimation from "../../animation/headAnim.json";
 import Lottie from "lottie-react";
+import resume from "../../../public/ilyas Farkhane.pdf";
+import reactAnim from "../../animation/reactAnim.json";
+import TopAnimatiom from "../../animation/topAnimation.json";
+// import Favicon from "react-favicon";
+import { ReactTyped } from "react-typed";
 export default function Hero() {
   const lottieRef = useRef();
   return (
@@ -23,15 +28,35 @@ export default function Hero() {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 3 }}
           className="title"
         >
-          MERN Full-Stack Developer 🚀.
+          {"< Ilyas Farkhane />"}
         </motion.h1>
+
         <p className="sub-title">
-          I’m Ilyas Farkhane, a MERN Full-Stack developer based in Casablanca
-          City.
+          {"$_   "}
+          {""}
+          <ReactTyped
+            strings={[
+              "REACT JS Developer",
+              "MERN Stack Developer",
+              "UI/UX Designer",
+            ]}
+            typeSpeed={50}
+            loop
+            backSpeed={20}
+            showCursor={true}
+          />
         </p>
+        <div className="stack-icons flex">
+          <img src="public\images\mongo.png" alt="" />
+          <img src="public\images\ex.png" alt="" />
+          <img src="public\images\react.png" alt="" />
+          <img src="public\images\node.png" alt="" />
+          <img src="public\images\figma.png" alt="" />
+        </div>
+
         <div className="all-icons flex">
           <a
             className="icon icon-linkedin-square"
@@ -46,9 +71,12 @@ export default function Hero() {
             className="icon icon-github"
             href="https://github.com/ilyasfarkhane-dev"
           />
-          <div className="cv"><button>Download My CV</button></div>
+          <div className="cv">
+            <a href={resume} download="ILYAS FARKHANE">
+              Download_My_CV
+            </a>
+          </div>
         </div>
-        
       </div>
 
       <div className="right-section animation ">
@@ -57,7 +85,7 @@ export default function Hero() {
           onLoadedImages={() => {
             lottieRef.current.setSpeed(0.5);
           }}
-          animationData={devAnimation}
+          animationData={TopAnimatiom}
         />
       </div>
     </section>

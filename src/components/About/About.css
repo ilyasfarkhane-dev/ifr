@@ -1,0 +1,61 @@
+h1.title {
+  font-size: 30px;
+  line-height: 3.3rem;
+  margin: 50px 0 30px 0;
+  color: #5dbcfc;
+  font-family: "Source Code Pro", monospace;
+}
+
+p.sub-title {
+  color: var(--subtitle);
+  font-size: 15px;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.6rem;
+  margin-bottom: 32px;
+}
+.about-pic img {
+  border-radius: 10px;
+  width: 350px;
+}
+.about-text {
+  padding-right: 80px;
+  padding-bottom: 100px;
+}
+
+.about-section {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.about-button a {
+  border: solid var(--blue) 0.5px;
+  padding: 0.75rem 0.75rem;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+  text-transform: capitalize;
+  border-radius: 10px;
+  transition: 0.3s;
+  color: var(--subtitle);
+}
+.about-button a:hover {
+  background-color: var(--blue);
+  opacity: 1;
+  color: white;
+}
+.about-button {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+@media (max-width: 900px) {
+  .about-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 0px;
+  }
+}

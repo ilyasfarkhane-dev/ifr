@@ -40,20 +40,24 @@ section.hero .left-section .icon-verified {
 section.hero h1.title {
   font-size: 2.85rem;
   line-height: 3.3rem;
-  margin: 24px 0;
-  color: var(--title);
+  margin: 50px 0 30px 0;
+  color: #5dbcfc;
+  font-family: "Source Code Pro", monospace;
 }
 
 section.hero p.sub-title {
   color: var(--subtitle);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.6rem;
   margin-bottom: 32px;
+
+  font-family: "Source Code Pro", monospace;
 }
 section.hero .all-icons {
   font-size: 1.3rem;
   gap: 1.5rem;
   color: var(--subtitle);
+  padding-bottom: 140px;
 }
 section.hero .all-icons .icon:hover {
   font-size: 1.4rem;
@@ -61,33 +65,47 @@ section.hero .all-icons .icon:hover {
   cursor: pointer;
   color: var(--icon-hover);
 }
-.cv button {
-  background-color: rgb(45, 46, 56);
-  width: 11rem;
-  padding: 0.75rem 0;
+.cv a {
+  border: solid var(--blue) 0.5px;
+  padding: 0.75rem 0.75rem;
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
   text-transform: capitalize;
-  opacity: 1;
-  border-radius: 100px;
+  border-radius: 10px;
   transition: 0.3s;
 }
-.cv button:hover {
-  /* background-color: rgb(108, 109, 119); */
+.cv a:hover {
   background-color: var(--blue);
   opacity: 1;
   color: white !important;
+}
+.stack-icons {
+  padding-bottom: 3rem;
+  justify-content: space-between;
+}
+.stack-icons img {
+  width: 6rem;
 }
 /* ---------------------------------------
        2. Right Section ===>Animation
 -----------------------------------------*/
 section.hero .animation {
-  width: 100%;
-  translate: 100px 50px;
+  width: 350px;
 }
-
-@media (max-width: 1250px) {
+/* .reactAnim {
+  width: 30px;
+} */
+@media (max-width: 750px) {
   section.hero .animation {
     display: none;
+  }
+  .stack-icons {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    justify-content: space-between;
+  }
+  .stack-icons img {
+    width: 3rem;
   }
 }
