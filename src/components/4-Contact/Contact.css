@@ -7,6 +7,7 @@ section.contact-us .title {
   color: var(--title);
   font-size: 2.1rem;
   margin-bottom: 1rem;
+ 
 }
 
 section.contact-us .sub-title {
@@ -36,9 +37,8 @@ section.contact-us #message {
   box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.105);
   color: #232324;
 }
-.light section.contact-us .psent{
+.light section.contact-us .psent {
   color: #232324;
-
 }
 
 section.contact-us #email:hover,

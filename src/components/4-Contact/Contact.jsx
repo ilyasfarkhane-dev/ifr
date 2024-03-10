@@ -10,7 +10,7 @@ export default function Contact() {
     <section className="contact-us" id="contact">
       <h1 className="title">
         <span className="icon-envelope"></span>
-        Contact Us
+        Contact Me
       </h1>
       {/* <p className="sub-title">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,

@@ -58,4 +58,8 @@ p.sub-title {
     align-content: center;
     padding-right: 0px;
   }
+  .about-pic img {
+    border-radius: 10px;
+    width: 16rem;
+  }
 }
