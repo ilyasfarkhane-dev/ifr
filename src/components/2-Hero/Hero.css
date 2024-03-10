@@ -103,9 +103,14 @@ section.hero .animation {
   .stack-icons {
     padding-top: 1rem;
     padding-bottom: 4rem;
+    padding-right: 1rem;
+
     justify-content: space-between;
   }
   .stack-icons img {
     width: 3rem;
+  }
+  .cv a {
+    font-size: 0.8rem;
   }
 }
