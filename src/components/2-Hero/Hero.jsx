@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./Hero.css";
 import devAnimation from "../../animation/headAnim.json";
 import Lottie from "lottie-react";
-import resume from "../../../public/ilyas Farkhane.pdf";
+import resume from "../../../public/images/ilyasfarkhane.pdf";
 import reactAnim from "../../animation/reactAnim.json";
 import TopAnimatiom from "../../animation/topAnimation.json";
 // import Favicon from "react-favicon";
