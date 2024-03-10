@@ -26,7 +26,7 @@ export default function About() {
         </div>
       </div>
       <div className="about-pic">
-        <img src="public\pic.png" alt="" />
+        <img src="../../../public/pic.png" alt="" />
       </div>
     </section>
   );
