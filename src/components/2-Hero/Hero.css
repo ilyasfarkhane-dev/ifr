@@ -78,7 +78,7 @@ section.hero .all-icons .icon:hover {
 .cv a:hover {
   background-color: var(--blue);
   opacity: 1;
-  color: white !important;
+  color: white;
 }
 .stack-icons {
   padding-bottom: 3rem;
@@ -112,5 +112,36 @@ section.hero .animation {
   }
   .cv a {
     font-size: 0.8rem;
+  }
+  .cv {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    justify-content: center;
+  }
+  section.hero h1.title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 18px;
+  }
+  .left-section {
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .parent-avatar {
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  section.hero p.sub-title {
+    text-align: center;
+    margin-top: -18px;
+  }
+  section.hero .all-icons {
+    /* border: 1px solid red; */
+    padding-bottom: 0;
+    justify-content: center;
+  }
+  section.hero .left-section {
+    justify-content: center;
   }
 }

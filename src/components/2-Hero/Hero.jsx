@@ -71,12 +71,13 @@ export default function Hero() {
             className="icon icon-github"
             href="https://github.com/ilyasfarkhane-dev"
           />
-          <div className="cv">
+          
+        </div>
+        <div className="cv">
             <a href={resume} download="ILYAS FARKHANE">
               Download_My_CV
             </a>
           </div>
-        </div>
       </div>
 
       <div className="right-section animation ">
